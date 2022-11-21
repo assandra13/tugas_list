@@ -1,25 +1,20 @@
-# kumpulan list
-data = [1, 2, 3, 4, 5, 6]
-print(data)
-
-# akses list
-print(data[3])
-print(data[2:4])
-print(data[5])
-
-# ubah elemen list
-data[4]=10
-print(data)
-data[4:5]= [10, 20]
-print(data)
-
-# tambah elemen list
-data_dua = [2,3,4]
-print(data_dua)
-data.append(10)
-print(data)
-data.extend([2,4])
-print(data)
-c = data + data_dua
-data.extend(data_dua)
-print(c)
+assandra1=['hello','program','Teknik','Informatika',1]
+print('===Akses List Asssandra===')
+print(assandra1)
+print(assandra1[2])
+print(assandra1[1:4])
+assandra1.pop()
+print(assamdra1)
+print()
+print('===Ubah Element Assandra===')
+assandra1[3] = 'Manajemen'
+print(assadnra1)
+assandra1[3:] = 'Sipil',2
+print(assandra1)
+print()
+print('===Tambah Element Assandra===')
+assandra2 = assandra1[:2]
+print(assandra2)
+assandra2.append('semester')
+assandra2.append(3)
+print(assandra1+assandra2)
