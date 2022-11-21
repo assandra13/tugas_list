@@ -4,11 +4,11 @@ print(assandra1)
 print(assandra1[2])
 print(assandra1[1:4])
 assandra1.pop()
-print(assamdra1)
+print(assandra1)
 print()
 print('===Ubah Element Assandra===')
 assandra1[3] = 'Manajemen'
-print(assadnra1)
+print(assandra1)
 assandra1[3:] = 'Sipil',2
 print(assandra1)
 print()
