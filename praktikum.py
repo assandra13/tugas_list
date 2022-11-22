@@ -7,11 +7,11 @@ uas = []
 tugas = []
 akhir = []
 while lanjut == 'y':
-        nama = str(input('Nama\t\t: '))
-        nim = int(input('NIM\t\t: '))
-        tugas = int(input('Nilai tugas\t: '))
-        uts = int(input('Nilai UTS\t: '))
-        uas = int(input('nilai uas\t: '))
+        na = str(input('Nama\t\t: '))
+        ni = int(input('NIM\t\t: '))
+        tug = int(input('Nilai tugas\t: '))
+        ut = int(input('Nilai uts\t: '))
+        us = int(input('nilai uas\t: '))
         akh = float(tug*0.3)+(ut*0.35)+(us*0.35)
         tugas.append(tug)
         nama.append(na)
